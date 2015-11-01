@@ -15,7 +15,7 @@ int main(void)
         {
             printf(" ");
         }
-        for (int hash = 1; hash <= row; hash++)
+        for (int hash = 1; hash <= row + 1; hash++)
         {
             printf("#");
         }           
