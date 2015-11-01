@@ -8,7 +8,7 @@ int main(void)
     {
         printf("Height: ");
         height = GetInt();
-    } while(height <= 0 || height > 23);
+    } while(height < 0 || height > 23);
     for (int row = 1; row <= height; row++)
     {
         for (int space = 1; space <= height - row; space++)
