@@ -11,4 +11,5 @@ int main(void)
     } while(height <= 0 || height > 23);
     printf("You chose: %d\n", height);
     printf("Hello git!\n");
+    printf("You did it!\n");
 }
