@@ -12,4 +12,5 @@ int main(void)
     printf("You chose: %d\n", height);
     printf("Hello git!\n");
     printf("You did it!\n");
+    printf("#\n");
 }
