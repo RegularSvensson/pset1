@@ -9,9 +9,9 @@ int main(void)
         printf("Height: ");
         height = GetInt();
     } while(height <= 0 || height > 23);
-    for (int row = 0; row < height; row++)
+    for (int row = 1; row <= height; row++)
     {
-        for (int column = 0; column < height; column++)
+        for (int space = 1; space <= height - row; space++)
         {
             printf("#");
         }
