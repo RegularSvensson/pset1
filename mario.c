@@ -6,7 +6,7 @@ int main(void)
     int height;
     do
     {
-        printf("Please give me a non-negative integer: ");
+        printf("Height: ");
         height = GetInt();
     } while(height <= 0 || height > 23);
     for (int row = 0; row < height; row++)
