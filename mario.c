@@ -6,10 +6,19 @@ int main(void)
     int height;
     do
     {
-        printf("Please give me a non-negative integer: ");
+        printf("Height: ");
         height = GetInt();
-    } while(height <= 0 || height > 23);
-    printf("You chose: %d\n", height);
-    printf("Hello git!\n");
-    printf("You did it!\n");
+    } while(height < 0 || height > 23);
+    for (int row = 1; row <= height; row++)
+    {
+        for (int space = 1; space <= height - row; space++)
+        {
+            printf(" ");
+        }
+        for (int hash = 1; hash <= row + 1; hash++)
+        {
+            printf("#");
+        }           
+        printf("\n");
+    }
 }
