@@ -15,6 +15,10 @@ int main(void)
         {
             printf(" ");
         }
+        for (int hash = 1; hash <= row; hash++)
+        {
+            printf("#");
+        }           
         printf("\n");
     }
 }
