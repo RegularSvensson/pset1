@@ -13,7 +13,7 @@ int main(void)
     {
         for (int space = 1; space <= height - row; space++)
         {
-            printf("#");
+            printf(" ");
         }
         printf("\n");
     }
